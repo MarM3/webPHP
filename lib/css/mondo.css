@@ -1,0 +1,327 @@
+
+        body{
+            background-color: rgb(255, 225, 255);
+            margin-left: 100px;
+            margin-right: 100px;
+            }
+        #cabeza table{
+            width: 100%;
+            height: 10px;
+            border: 20px solid #c0c0c0; 
+            border-radius: 15px;
+            text-align: center; 
+            margin-bottom: 10px;
+            }
+        #cabeza td{
+            text-align: center;
+            background-color: rgb(76, 37, 76);
+            }
+        #cabeza img{
+            width: 425px; 
+            height: 249px;
+            border: none;
+            }
+        #cabeza h2{
+            font-family: Gill Sans Ultra Bold; 
+            color: rgb(153, 153, 0);
+            }
+        #menu a{
+          text-decoration: none;
+          font-family: Gill Sans Ultra Bold;  
+        }
+        #izq table{
+            width: 160px;
+            height: 320px;
+            text-align: center;
+        }
+        #der table{
+            width: 160px;
+            height: 320px;
+            margin-top: -195px;
+            float: right;
+            text-align: center;
+        }
+        #mensaje{
+            height: 50px;
+            margin-left: 170px;
+            border: 20px inset #c0c0c0;
+            background-color: rgb(128, 0, 0);
+            margin-top: 50px;
+        }
+        #mensaje p{
+            font-family: Gill Sans Ultra Bold;
+            color: rgb(153, 153, 0);
+            text-align: center;
+        }
+        #mapa{
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            width: 100%;
+            margin-left: 200px;
+            margin-top: -395px;
+        }
+        #mapa a{
+            font-family: Gill Sans;
+            color: rgb(91, 0, 91);
+            font-weight: bold;
+        }
+        #mapa a:hover{
+            color: rgb(153, 153, 0);;
+        }
+        #cuerpo table{
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            width: 100%;
+            margin-left: 170px;
+            margin-top: -780px;
+        }
+        #cuerpo a{
+            text-decoration: none;
+            font-family: Gill Sans;
+            color: rgb(91, 0, 91);
+            font-weight: bold;
+        }
+        #cuerpo hr{
+            background-color: rgb(153, 153, 0);
+            height: 1px;
+            border: 1px dotted rgb(153, 153, 0);
+            color: rgb(153, 153, 0);
+        }
+        #chica table{
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            margin-left: 170px;
+            margin-top: -795px;
+            margin-right: 430px;
+            height: 1000px;
+        }
+        #enunciado{
+            width: 200px;
+            font-family: Gill Sans MT; 
+            font-size: 18px;
+        }
+        #fotosder {
+            float: right;
+            margin-top: -795px;
+        }
+        #fotosder img {
+            height: 440px;
+            width: 300px; 
+            border: 0px;
+        }
+        #foto3{
+            float: left;
+        }
+        #foto3 img {
+            height: 440px;
+            width: 300px; 
+            border: 0px;
+            margin-left: 170px;
+        }
+        #foto4{
+            float: right;
+        }
+        #foto4 img {
+            height: 440px;
+            width: 300px; 
+            border: none;
+        }
+        #fult{
+            float: center;
+        }
+        #fult img {
+            height: 300px;
+            width: 440px; 
+            border: none;
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+        #contacchica{
+            margin-left: 400px;
+            margin-right: 320px;
+            margin-top: 250px;
+        }
+        #contacchica h2{
+            text-align: center;
+        }
+        #seccion{
+            font-family: Gill Sans MT; 
+            font-size: 14px; 
+        }
+        #cuerpo{
+            margin-right: 425px;
+        }
+        #cuerpo h2{
+            color: rgb(91, 0, 91);
+            font-family: Gill Sans MT;
+        }
+        #cuerpo h3{
+            color: rgb(91, 0, 91);
+            font-family: Gill Sans MT;
+        }
+        #contacto table{
+            font-family: Gill Sans MT;
+            color: rgb(153, 153, 0);
+            font-size: 20px;
+        }
+        #respuesta{
+            margin-left: 170px;
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            margin-top: -375px;
+        }
+        #misfamilias table{
+            margin-left: 170px;
+            margin-top: -575px;
+        }
+		#misfamilias td{
+			background-image: url(http://www.mondo-felice.com/sexshop/lib/images/familia/Boton1.jpg);
+		}
+        #subfamilias table{
+            margin-left: 170px;
+            margin-top: -575px;
+        }
+        #subfamilias td{
+            border: none;
+            background-image: url(http://www.mondo-felice.com/sexshop/lib/images/botonsubfam2.png);
+            width: 205px;
+            height: 205px;
+            text-align: center;
+            padding-right: 10px;
+        }	
+        #menu{
+			border-radius: 15px;
+            border-style: solid; 
+            border-color: #c0c0c0; 
+            background-color: rgb(76, 37, 76);
+		}
+		#menu ul li, #menu li:last-child{border:none}
+		#menu ul li li{padding-left: 10px;}
+		#menu a{
+			display:block;
+			color: rgb(153, 153, 0);
+			text-decoration:none;
+			font-family: Gill Sans MT;
+			font-size:20px;
+			padding:3px 5px;
+		}
+		#menu a:hover{
+			color: rgb(255, 225, 255);
+		}
+		
+		#menu ul a:hover{
+			text-shadow:none;
+		}
+                ul{
+			display:block;
+			margin:0;
+			padding:0;
+			width:160px;
+			list-style:none;
+		}
+        #subfamilias a{
+            text-decoration: none;
+            font-family: Gill Sans Ultra Bold;
+            font-size: medium;
+            color: rgb(91, 0, 91);
+			width: 205px;
+			height: 205px;
+        }
+
+        #subfamilias a:hover{
+            color: rgb(153, 153, 0);
+        }
+		#misfamilias a:hover{
+			color: rgb(255, 255, 255);
+		}
+        #fimagen{
+            margin-left: 170px;
+            float: left;
+            margin-top: -510px;
+        }
+        #articulo{
+            margin-left: 315px;
+            margin-right: 10px;
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            font-size: 20px;
+            height: 600px;
+            margin-top: -370px;
+            
+        }
+        #articulo table{
+            font-family: Gill Sans MT;
+            color: rgb(91, 0, 91);
+            margin-top: -20px;
+            margin-left: 250px;
+        }
+        .carro{
+            margin-left: 170px; 
+            margin-top: -570px;
+        }
+        .imagtd{
+            width: 48px;
+            height: 48px;
+            padding-left: 10px;
+        }
+        a.imagtd{
+            border: none;
+        }
+        .h4td{
+            margin-left: 120px; 
+            margin-top: -70px;
+            width: 100px;
+            height: 48px;
+            padding-right: 10px;
+            color: rgb(91, 0, 91);
+        }
+        a.h4td{
+            color: rgb(91, 0, 91);
+            
+        }
+        .p1td{
+            margin-top: 65px;
+            padding-left: 10px;
+        }
+        .p2td{
+            margin-top: -50px;
+            float: right;
+            padding-right: 10px;
+        }
+        .news{
+            float: right;
+            margin-top: -370px;
+            color: rgb(91, 0, 91);
+            font-family: Gill Sans MT;
+        }
+        .publihetero{
+            float: right;
+        }
+        .add{
+            float: left;
+            margin-top: -4000px;
+        }
+        #pie {
+            background-color: rgb(76, 37, 76);
+            text-align: center;
+            width: 100%;
+            height: 170px;
+            margin-top: 620px; 
+        }
+        #pie h4{
+            color: rgb(153, 153, 0);  
+        }
+        #pie a{
+            color: rgb(153, 153, 0);
+            text-decoration: none;
+        }
+        #p1{
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            padding-top: 1px;
+        }
+        #p2{
+            text-align: right;
+            margin-right: 20px;
+        }
